@@ -1,0 +1,14 @@
+class Animal:
+    def Animal_attribute(self):
+        self.name="Tiger"
+        self.speed="200Km/h"
+        self.strangth="powerful"
+        print("Name :{}\nSpeed :{}\nStrangth :{}".format(self.name,self.speed,self.strangth))
+
+class Tiger(animal):
+    print("Nationl Animal")
+    
+a=Animal()
+b=Tiger()
+b.Animal_attribute()
+    
